@@ -82,8 +82,18 @@ p {
     border-radius: 5px;
     cursor: pointer;
     margin-right: 10px;
+    text-decoration: none;
 }
 
 .edit-review:hover, .delete-review:hover {
     background-color: #0056b3;
+}
+
+.edit-review a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.delete-review{
+    background-color: #ff6060;
 }
